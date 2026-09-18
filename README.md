@@ -25,12 +25,3 @@ The agent is trained in a custom `Gymnasium` environment, optimizing for maximum
 To prove physical viability, the RL logic is translated into a high-fidelity digital twin using Pygame. 
 * **Static Grid (Left):** Causes severe cumulative delay and bottlenecking during asymmetric surges.
 * **Swarm-RL Grid (Right):** Dynamically shifts capacity, maintaining smooth throughput and reducing cumulative idle time by over **50%**.
-
-*(Upload/Link your `assets/swarm_dashboard.mp4` video here in your GitHub repo)*
-
-## 🛠️ Installation & Execution
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/SwarmRL-Dynamic-Lanes.git](https://github.com/YOUR_USERNAME/SwarmRL-Dynamic-Lanes.git)
-   cd SwarmRL-Dynamic-Lanes
